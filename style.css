@@ -478,8 +478,16 @@ h1 {
     grid-template-columns: 1fr;
   }
 
+  .act-card div {
+    padding: 0.65rem;
+  }
+
   .act-card img {
-    min-height: 210px;
+
+    min-height: 0;
+    max-height: 200px;
+    max-width: 695px;
+    border-radius: 10px 10px 0 0;
   }
 }
 
