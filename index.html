@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pratiques Culturelles | Alexandra Mourel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="theme-home">
+    <div class="page-glow" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Retour a l'accueil">
+          <span class="brand-dot"></span>
+          <span> Accueil </span>
+        </a>
+
+        <button class="menu-btn" type="button" data-menu-btn aria-expanded="false" aria-controls="main-nav">
+          Menu
+        </button>
+
+        <nav id="main-nav" class="main-nav" aria-label="Navigation principale">
+          <a href="theatre.html">Théâtre</a>
+          <a href="danse.html">Danse</a>
+          <a href="musee.html">Musée</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container main-content">
+      <section class="home-hero reveal">
+        <p class="kicker">Pratiques Culturelles · 2025-2026</p>
+        <h1>Entre ciel, terre et mer…</h1>
+        <p >
+          Bienvenue sur ce site dédié à mon carnet de bord culturel. Ce semestre, j'ai exploré trois univers artistiques très différents : la poésie philosophique du théâtre avec Le Petit Prince, l'énergie physique de la danse contemporaine avec le Jeune Ballet et le mystère scientifique des fonds marins au Musée des Confluences.
+        </p>
+        <p>
+À travers ces trois expériences, j'ai pu observer comment la mise en scène, qu'elle soit sur un plateau ou dans une salle d'exposition, permet de rendre visible l'invisible et de nous interroger sur notre place dans le monde.
+        </p>
+      </section>
+
+      <section class="timeline reveal" aria-label="Parcours culturel">
+        <article>
+          <h2>17 dec. 2025</h2>
+          <p>Le Petit Prince au Theatre de l'Iris</p>
+        </article>
+        <article>
+          <h2>28 jan. 2026</h2>
+          <p>Programme du Jeune Ballet - CNSMD</p>
+        </article>
+        <article>
+          <h2>11 avr. 2026</h2>
+          <p>Exposition Le mystere des anneaux</p>
+        </article>
+      </section>
+
+      <section class="works-grid" aria-labelledby="works-title">
+        <h2 id="works-title" class="section-title reveal">Explorer les 3 oeuvres</h2>
+
+        <a class="work-card reveal" href="theatre.html" aria-label="Ouvrir la page theatre - Le Petit Prince">
+          <div class="work-media">
+            <img src="Images/Accueil_prince.WEBP" alt="Theatre - Le Petit Prince" />
+          </div>
+          <div class="work-copy">
+            <p class="work-type">Piece de theatre</p>
+            <h3>Le Petit Prince</h3>
+
+          </div>
+        </a>
+
+        <a class="work-card reveal" href="danse.html" aria-label="Ouvrir la page danse - Jeune Ballet">
+          <div class="work-media">
+            <img src="Images/Accueil_danse.WEBP" alt="Spectacle de danse - Jeune Ballet" />
+          </div>
+          <div class="work-copy">
+            <p class="work-type">Spectacle de danse</p>
+            <h3>Jeune Ballet du CNSMD</h3>
+
+          </div>
+        </a>
+
+        <a class="work-card reveal" href="musee.html" aria-label="Ouvrir la page musee - Le mystere des anneaux">
+          <div class="work-media">
+            <img src="Images/expo.JPG" alt="Exposition temporaire - Le mystere des anneaux" />
+          </div>
+          <div class="work-copy">
+            <p class="work-type">Exposition temporaire</p>
+            <h3>Le mystere des anneaux</h3>
+
+          </div>
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        MOUREL Alexandra · Universite Lumiere Lyon 2 · L3 Sciences de l'Education · Pratiques Culturelles · TD004 PERZO
+        Laurianne · Avril 2026
+      </p>
+    </footer>
+  </body>
+</html>
