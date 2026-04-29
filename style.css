@@ -426,6 +426,10 @@ h1 {
 
 }
 
+  .act-card div {
+    padding: 0.65rem;
+  }
+
 
 @media (max-width: 1050px) {
   .works-grid {
